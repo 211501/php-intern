@@ -1,0 +1,106 @@
+form {
+    margin-top: 50px;
+    margin-left: 320px; /* Adjust margin as needed */
+    padding: 10px; /* Adjust padding as needed */
+    border: 1px solid #ccc; /* Add a border as desired */
+    width: 500px; /* Set the width of the form */
+}
+
+label {
+    display: block; /* Display labels on new lines */
+    margin-bottom: 5px; /* Adjust spacing between labels */
+    font-weight: bold; /* Make labels bold if desired */
+}
+
+select {
+    width: 100%; /* Set input and select boxes to full width of the form */
+    padding: 5px; /* Add padding to input and select boxes */
+    margin-bottom: 10px; /* Adjust spacing between input/select fields */
+    border: 1px solid #ccc; /* Add a border to input/select boxes */
+}
+
+button {
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #007BFF; /* Set button background color */
+    color: #fff; /* Set button text color */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+table {
+    border-collapse: collapse; /* Merge cell borders */
+    width: 80%; /* Make tables expand to full width */
+}
+
+th {
+    background-color: #f2f2f2; /* Set background color for table headers */
+}
+
+th, td {
+    border: 1px solid #ccc; /* Add cell borders */
+    padding: 8px; /* Add cell padding as needed */
+    text-align: left; /* Set text alignment for cells */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row background color */
+    width: 30%;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.rectangle {
+    background-color: white;
+    color: #000;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #000;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+
+header {
+    position: absolute;
+    width: 80%;
+    top: 2%;
+    left: 10%;
+}
+
+footer {
+    position: absolute;
+    width: 80%;
+    top: 800px;
+    left: 10%;
+}
+
+ .readonly-input {
+     display: inline-block;
+     border: 1px solid #ccc;
+     padding: 5px;
+     max-width: 300px; /* Đặt giá trị max-width tùy theo nhu cầu của bạn */
+     overflow: hidden;
+     text-overflow: ellipsis; /* Hiển thị dấu ba chấm khi nội dung quá dài */
+     white-space: nowrap; /* Ngăn chặn việc xuống dòng */
+     text-align: left;
+ }
+
+
